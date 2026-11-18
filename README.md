@@ -14,6 +14,6 @@ Needs a T3 Code build with themes (Nightly, as of November 2026).
 
 ## What's in here
 
-- `theme/` is the theme itself. `hyperborea.webp` holds the 48 aurora frames in an 8×6 grid, and the CSS steps through them.
-- `generator/aurora.py` draws the aurora frames (`python3 aurora.py options.json 48 glacier`). It writes one tall strip. Repack it into the 8×6 grid before shipping, since t3skins shrinks images over 3840 px.
+- `theme/` is the theme itself. `hyperborea.webp` holds 112 aurora frames in an 8×14 grid, and one keyframe animation steps through them in order (14 fps).
+- `generator/aurora.py` draws the aurora frames (`python3 aurora.py options.json 112 glacier`). It writes one tall strip. Repack it into the 8×14 grid before shipping, since t3skins shrinks images over 3840 px.
 - `video/` is the [Clapper](https://www.npmjs.com/package/@archastro/clapper) project for the preview video. Run `./clap.sh preview` or `./clap.sh render -c hyperborea`.
