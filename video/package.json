@@ -1,0 +1,30 @@
+{
+  "name": "video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "clapper preview",
+    "render": "clapper render",
+    "review": "clapper review",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@archastro/clapper-core": "file:.clapper/runtime/packages/core",
+    "@archastro/clapper-music": "file:.clapper/runtime/packages/music",
+    "@tonejs/midi": "file:.clapper/runtime/node_modules/.pnpm/@tonejs+midi@2.0.28/node_modules/@tonejs/midi",
+    "array-flatten": "file:.clapper/runtime/node_modules/.pnpm/array-flatten@3.0.0/node_modules/array-flatten",
+    "midi-file": "file:.clapper/runtime/node_modules/.pnpm/midi-file@1.2.4/node_modules/midi-file",
+    "@babel/standalone": "file:.clapper/runtime/node_modules/.pnpm/@babel+standalone@7.29.8/node_modules/@babel/standalone",
+    "katex": "file:.clapper/runtime/node_modules/.pnpm/katex@0.16.47/node_modules/katex",
+    "commander": "file:.clapper/runtime/node_modules/.pnpm/commander@8.3.0/node_modules/commander",
+    "react": "file:.clapper/runtime/node_modules/.pnpm/react@19.2.8/node_modules/react",
+    "react-dom": "file:.clapper/runtime/node_modules/.pnpm/react-dom@19.2.8_react@19.2.8/node_modules/react-dom",
+    "scheduler": "file:.clapper/runtime/node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler"
+  },
+  "devDependencies": {
+    "@types/react": "file:.clapper/runtime/node_modules/.pnpm/@types+react@19.2.18/node_modules/@types/react",
+    "csstype": "file:.clapper/runtime/node_modules/.pnpm/csstype@3.2.3/node_modules/csstype",
+    "@types/react-dom": "file:.clapper/runtime/node_modules/.pnpm/@types+react-dom@19.2.5_@types+react@19.2.18/node_modules/@types/react-dom",
+    "typescript": "file:.clapper/runtime/node_modules/.pnpm/typescript@5.9.3/node_modules/typescript"
+  }
+}

@@ -1,0 +1,12 @@
+# private
+.t3skins-manage-link
+x-post.md
+video/REVIEW-NOTES.md
+video/tools/
+
+# build output
+node_modules/
+.clapper/
+video/out/
+generator/hyperborea-strip.webp
+.DS_Store
