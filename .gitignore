@@ -10,3 +10,4 @@ node_modules/
 video/out/
 generator/hyperborea-strip.webp
 .DS_Store
+generator/out/
