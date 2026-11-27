@@ -16,10 +16,5 @@ Needs a T3 Code build with themes (Nightly, as of November 2026).
 
 - `theme/` is the theme itself. `hyperborea.webp` holds 112 aurora frames in an 8×14 grid, and one keyframe animation steps through them in order (14 fps).
 - `generator/aurora.py` draws the aurora frames (`python3 aurora.py options.json 112 glacier`). It writes one tall strip. Repack it into the 8×14 grid before shipping, since t3skins shrinks images over 3840 px.
+- `docs/ideas/` keeps a two-line sidebar row layout that was tried and set aside.
 - `video/` is the [Clapper](https://www.npmjs.com/package/@archastro/clapper) project for the preview video. Run `./clap.sh preview` or `./clap.sh render -c hyperborea`.
-
-## Sidebar rows
-
-Each thread in the sidebar shows two lines. The top line has the agent icon, the project icon and name, the machine and the time. The title gets the whole second line. When the sidebar is narrow, the machine name shrinks to just its icon.
-
-T3 Code doesn't offer a stable way to restyle the parts inside a thread row, so this layout depends on how the current Nightly builds that row. A future T3 update could break it. If rows look wrong after an update, open an issue.
