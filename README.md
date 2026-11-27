@@ -20,6 +20,6 @@ Needs a T3 Code build with themes (Nightly, as of November 2026).
 
 ## Sidebar rows
 
-Each thread in the sidebar shows two lines. The top line has the agent icon, the project, the machine and the time. The title gets the whole second line. When the sidebar is narrow, the machine name shrinks to just its icon.
+Each thread in the sidebar shows two lines. The top line has the agent icon, the project icon and name, the machine and the time. The title gets the whole second line. When the sidebar is narrow, the machine name shrinks to just its icon.
 
 T3 Code doesn't offer a stable way to restyle the parts inside a thread row, so this layout depends on how the current Nightly builds that row. A future T3 update could break it. If rows look wrong after an update, open an issue.
